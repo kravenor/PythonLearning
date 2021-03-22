@@ -1,6 +1,6 @@
 import requests, json
 city='Montepulciano'
-api_key="8274ac5f6280135a33d5afa6e1fae4d3"
+api_key="YOUR_API_KEY"
 base_url="https://api.openWeathermap.org/data/2.5/weather?"
 url=base_url+"appid="+api_key+"&q="+city
 response=requests.get(url)
